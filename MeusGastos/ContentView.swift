@@ -12,19 +12,19 @@ struct ContentView: View {
   @State private var activeTab: Table = .recents
   var body: some View {
     TabView(selection: $activeTab) {
-      Text("Recentes")
+      Recents()
         .tag(Table.recents)
         .tabItem { Table.recents.tableContent }
       
-      Text("Filtro")
+      Search()
         .tag(Table.recents)
         .tabItem { Table.search.tableContent }
       
-      Text("Gráficos")
+      Graphs()
         .tag(Table.recents)
         .tabItem { Table.charts.tableContent }
       
-      Text("Configurações")
+      Settings()
         .tag(Table.recents)
         .tabItem { Table.settings.tableContent }
     }
