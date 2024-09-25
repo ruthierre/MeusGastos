@@ -78,7 +78,7 @@ struct Recents: View {
     func HeaderView(_ size: CGSize) -> some View {
         HStack(spacing: 10) {
             VStack(alignment: .leading, spacing: 5, content: {
-                Text("Welcome!")
+                Text("Olá!")
                     .font(.title.bold())
                 
                 if !userName.isEmpty {

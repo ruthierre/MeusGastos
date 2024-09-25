@@ -12,6 +12,7 @@
 		1C0C3C3A2C9A3BF600A0C4DB /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3C392C9A3BF600A0C4DB /* TransactionCardView.swift */; };
 		1C0C3C3C2C9A43F200A0C4DB /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3C3B2C9A43F200A0C4DB /* SwipeAction.swift */; };
 		1C0C3C3E2C9B3FB200A0C4DB /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3C3D2C9B3FB200A0C4DB /* DateFilterView.swift */; };
+		1CD093BF2CA48A9D00BA91F8 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD093BE2CA48A9D00BA91F8 /* LockView.swift */; };
 		1CDE28C22C85F4B300844FBF /* MeusGastosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE28C12C85F4B300844FBF /* MeusGastosApp.swift */; };
 		1CDE28C42C85F4B300844FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE28C32C85F4B300844FBF /* ContentView.swift */; };
 		1CDE28C82C85F4B400844FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE28C72C85F4B400844FBF /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		1C0C3C392C9A3BF600A0C4DB /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		1C0C3C3B2C9A43F200A0C4DB /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		1C0C3C3D2C9B3FB200A0C4DB /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		1CD093BE2CA48A9D00BA91F8 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		1CDE28BE2C85F4B300844FBF /* MeusGastos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeusGastos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDE28C12C85F4B300844FBF /* MeusGastosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusGastosApp.swift; sourceTree = "<group>"; };
 		1CDE28C32C85F4B300844FBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				1C0C3C392C9A3BF600A0C4DB /* TransactionCardView.swift */,
 				1C0C3C3B2C9A43F200A0C4DB /* SwipeAction.swift */,
 				1C0C3C3D2C9B3FB200A0C4DB /* DateFilterView.swift */,
+				1CD093BE2CA48A9D00BA91F8 /* LockView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				1CDE28E42C89E48000844FBF /* Search.swift in Sources */,
 				1CDE28EA2C89ED0400844FBF /* View+Extensions.swift in Sources */,
 				1CDE28C22C85F4B300844FBF /* MeusGastosApp.swift in Sources */,
+				1CD093BF2CA48A9D00BA91F8 /* LockView.swift in Sources */,
 				1C0C3C352C99E18C00A0C4DB /* Date+extensions.swift in Sources */,
 				1CDE28E62C89E48F00844FBF /* Graphs.swift in Sources */,
 				1CDE28DF2C89E23E00844FBF /* Category.swift in Sources */,
@@ -379,6 +383,7 @@
 				DEVELOPMENT_TEAM = L3C2722P5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = RUTHIERRE;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,6 +413,7 @@
 				DEVELOPMENT_TEAM = L3C2722P5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = RUTHIERRE;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
