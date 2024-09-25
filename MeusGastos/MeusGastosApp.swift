@@ -15,5 +15,6 @@ struct MeusGastosApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [Transaction.self])
     }
 }
